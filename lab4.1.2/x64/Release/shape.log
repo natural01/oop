@@ -1,0 +1,13 @@
+﻿  Circle.cpp
+  ConsoleCommand.cpp
+  LineSegment.cpp
+  main.cpp
+  pont.cpp
+  Rectangle.cpp
+  shape.cpp
+  SolidShape.cpp
+  testShape.cpp
+  Triangle.cpp
+  Создание кода...
+testShape.obj : error LNK2005: main уже определен в main.obj
+D:\ооп\lab4.1.2\x64\Release\shape.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
