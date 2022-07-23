@@ -1,0 +1,27 @@
+﻿  Rational.cpp
+Rational.obj : error LNK2005: "public: __cdecl CRational::CRational(int)" (??0CRational@@QEAA@H@Z) уже определен в main.obj
+Rational.obj : error LNK2005: "public: __cdecl CRational::CRational(int,int)" (??0CRational@@QEAA@HH@Z) уже определен в main.obj
+Rational.obj : error LNK2005: "public: __cdecl CRational::CRational(void)" (??0CRational@@QEAA@XZ) уже определен в main.obj
+Rational.obj : error LNK2005: "void __cdecl operator>>(class std::basic_istream<char,struct std::char_traits<char> > &,class CRational const &)" (??5@YAXAEAV?$basic_istream@DU?$char_traits@D@std@@@std@@AEBVCRational@@@Z) уже определен в main.obj
+Rational.obj : error LNK2005: "void __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class CRational const &)" (??6@YAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEBVCRational@@@Z) уже определен в main.obj
+Rational.obj : error LNK2005: "bool __cdecl operator==(class CRational const &,class CRational const &)" (??8@YA_NAEBVCRational@@0@Z) уже определен в main.obj
+Rational.obj : error LNK2005: "bool __cdecl operator!=(class CRational const &,class CRational const &)" (??9@YA_NAEBVCRational@@0@Z) уже определен в main.obj
+Rational.obj : error LNK2005: "class CRational __cdecl operator*(class CRational const &,class CRational const &)" (??D@YA?AVCRational@@AEBV0@0@Z) уже определен в main.obj
+Rational.obj : error LNK2005: "class CRational __cdecl operator-(class CRational const &,class CRational const &)" (??G@YA?AVCRational@@AEBV0@0@Z) уже определен в main.obj
+Rational.obj : error LNK2005: "public: class CRational __cdecl CRational::operator-(void)const " (??GCRational@@QEBA?AV0@XZ) уже определен в main.obj
+Rational.obj : error LNK2005: "class CRational __cdecl operator+(class CRational const &,class CRational const &)" (??H@YA?AVCRational@@AEBV0@0@Z) уже определен в main.obj
+Rational.obj : error LNK2005: "public: class CRational __cdecl CRational::operator+(void)const " (??HCRational@@QEBA?AV0@XZ) уже определен в main.obj
+Rational.obj : error LNK2005: "class CRational __cdecl operator/(class CRational const &,class CRational const &)" (??K@YA?AVCRational@@AEBV0@0@Z) уже определен в main.obj
+Rational.obj : error LNK2005: "bool __cdecl operator<(class CRational const &,class CRational const &)" (??M@YA_NAEBVCRational@@0@Z) уже определен в main.obj
+Rational.obj : error LNK2005: "bool __cdecl operator<=(class CRational const &,class CRational const &)" (??N@YA_NAEBVCRational@@0@Z) уже определен в main.obj
+Rational.obj : error LNK2005: "bool __cdecl operator>(class CRational const &,class CRational const &)" (??O@YA_NAEBVCRational@@0@Z) уже определен в main.obj
+Rational.obj : error LNK2005: "bool __cdecl operator>=(class CRational const &,class CRational const &)" (??P@YA_NAEBVCRational@@0@Z) уже определен в main.obj
+Rational.obj : error LNK2005: "public: class CRational & __cdecl CRational::operator*=(class CRational const &)" (??XCRational@@QEAAAEAV0@AEBV0@@Z) уже определен в main.obj
+Rational.obj : error LNK2005: "public: class CRational & __cdecl CRational::operator+=(class CRational const &)" (??YCRational@@QEAAAEAV0@AEBV0@@Z) уже определен в main.obj
+Rational.obj : error LNK2005: "public: class CRational & __cdecl CRational::operator-=(class CRational const &)" (??ZCRational@@QEAAAEAV0@AEBV0@@Z) уже определен в main.obj
+Rational.obj : error LNK2005: "public: class CRational & __cdecl CRational::operator/=(class CRational const &)" (??_0CRational@@QEAAAEAV0@AEBV0@@Z) уже определен в main.obj
+Rational.obj : error LNK2005: "public: int __cdecl CRational::GetDenominator(void)const " (?GetDenominator@CRational@@QEBAHXZ) уже определен в main.obj
+Rational.obj : error LNK2005: "public: int __cdecl CRational::GetNumerator(void)const " (?GetNumerator@CRational@@QEBAHXZ) уже определен в main.obj
+Rational.obj : error LNK2005: "private: void __cdecl CRational::Reduction(void)" (?Reduction@CRational@@AEAAXXZ) уже определен в main.obj
+Rational.obj : error LNK2005: "public: double __cdecl CRational::ToDouble(void)const " (?ToDouble@CRational@@QEBANXZ) уже определен в main.obj
+D:\ооп\Rational\x64\Debug\Rational.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
